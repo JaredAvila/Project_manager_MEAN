@@ -1,0 +1,13 @@
+<div id="nav">
+  <div id="nav-top">
+    <h1>Product Boss</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoQp5FLdgLAJhgsvOYSYCO-Y1ksTpYeoA_BiYICqAc3M7cDY3T" alt="">
+  </div>
+  <div id="nav-bot">
+    <p [routerLink]="['/home']">Home</p>
+    <p [routerLink]="['/products']">View Products</p>
+    <p [routerLink]="['/products/new']">Create Product</p>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

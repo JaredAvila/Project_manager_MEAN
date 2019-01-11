@@ -1,0 +1,11 @@
+<div id="wrap">
+  <h1>Create a New Product</h1>
+  <form (submit)="createProd()">
+    <input type="text" name="newProd.title" [(ngModel)]="newProd.title" placeholder="Title">
+    <input type="text" name="newProd.price" [(ngModel)]="newProd.price" placeholder="Price">
+    <input type="text" name="newProd.imgUrl" [(ngModel)]="newProd.imgUrl" placeholder="Image url">
+    <button type="submit" class="btn-blue">Create</button>
+    <button type="button" class="btn-red" [routerLink]="['/home']">Cancel</button>
+    <p style="color: red;">{{ errorMsg }}</p>
+  </form>
+</div>

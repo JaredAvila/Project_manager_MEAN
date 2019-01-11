@@ -1,0 +1,12 @@
+<div id="wrap">
+    <h1>Edit Product</h1>
+    <form (submit)="submitProd()">
+      <input type="text" name="prodToUpdate.title" [(ngModel)]="prodToUpdate.title" placeholder="Title">
+      <input type="text" name="prodToUpdate.price" [(ngModel)]="prodToUpdate.price" placeholder="Price">
+      <input type="text" name="prodToUpdate.imgUrl" [(ngModel)]="prodToUpdate.imgUrl" placeholder="Image url">
+      <button type="submit" class="btn-blue">Save</button>
+      <button class="btn-red" [routerLink]="['/products/view']">Cancel</button>
+      <p style="color: red;">{{ errorMsg }}</p>
+    </form>
+  </div>
+  

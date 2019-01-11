@@ -1,0 +1,18 @@
+.btn-blue {
+    background-color: rgb(84, 84, 209);
+}
+.btn-blue:hover {
+    background-color: rgb(76, 76, 189);
+}
+.btn-blue:active {
+    background-color: rgb(66, 66, 165);
+}
+.btn-red {
+    background-color: rgb(233, 99, 177);
+}
+.btn-red:hover {
+    background-color: rgb(209, 87, 158);
+}
+.btn-red:active {
+    background-color: rgb(184, 75, 138);
+}
